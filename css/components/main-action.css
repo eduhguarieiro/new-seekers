@@ -1,0 +1,15 @@
+.main-action {
+    display: inline-block;
+    text-decoration: none;
+    color: var(--cor-fonte-cinza);
+    font-family: var(--fonte-principal);
+    width: 240px;
+    height: 55px;
+    line-height: 55px;
+    border-radius: 10px;
+}
+
+.main-action:hover {
+    background-color: var(--cor-hover);
+}
+
