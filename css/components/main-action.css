@@ -1,5 +1,6 @@
 .main-action {
-    display: inline-block;
+    display: inline-flex;
+    align-items: center;
     text-decoration: none;
     color: var(--cor-fonte-cinza);
     font-family: var(--fonte-principal);
@@ -13,3 +14,11 @@
     background-color: var(--cor-hover);
 }
 
+.main-action.-home::before {
+    content: "";
+    background-image: url(../../assets/icons/icon-home.png);
+    width: 20px;
+    height: 20px;
+    margin-left: 18px;
+    margin-right: 24px;
+}
