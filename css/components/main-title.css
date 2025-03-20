@@ -1,5 +1,5 @@
 .main-title {
-    font-family: "Montserrat Alternates", sans-serif;
+    font-family: var(--fonte-principal);
     font-weight: 600;
     font-size: 40px;
     line-height: 1.2;
